@@ -40,7 +40,7 @@ def work_out
   self.happiness += 2
   "♪ another one bites the dust ♫"
 end
-def call_friend(name)
+def call_friend(friend)
   self.happiness += 3
   binding.pry
 
