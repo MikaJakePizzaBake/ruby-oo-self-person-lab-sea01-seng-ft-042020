@@ -29,5 +29,6 @@ end
 def get_paid(salary)
   #binding.pry
   @bank_account += salary
+  "all about the benjamins"
 end
 end
