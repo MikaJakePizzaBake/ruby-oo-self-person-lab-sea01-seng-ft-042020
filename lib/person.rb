@@ -56,7 +56,6 @@ else
   person.happiness += 2
   self.happiness += 2
 end
-end
 
 
 
