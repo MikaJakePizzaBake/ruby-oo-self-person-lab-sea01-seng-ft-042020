@@ -40,4 +40,6 @@ def work_out
   self.happiness += 2
   "♪ another one bites the dust ♫"
 end
+def self.call_friend
+end
 end
