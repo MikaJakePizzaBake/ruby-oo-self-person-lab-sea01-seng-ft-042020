@@ -55,6 +55,7 @@ else
   topic == "weather"
   person.happiness += 2
   self.happiness += 2
+  "blah blah sun blah rain"
 end
 
 
