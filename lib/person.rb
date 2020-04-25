@@ -1,8 +1,8 @@
 # your code goes here
 require 'pry'
 class Person
-  attr_reader :name
-  attr_accessor :bank_account, :happiness, :hygiene, :salary
+  attr_reader :name, :hygiene
+  attr_accessor :bank_account, :happiness, :salary
   def initialize(name)
     @name = name
     @bank_account = 25
@@ -17,7 +17,6 @@ def happiness=(happiness)
 end
 def hygiene=(hygiene)
   @hygiene = hygiene
-  @hygiene += 4
   @hygiene = 10 if hygiene > 10
   @hygiene = 0 if hygiene < 0
 end
@@ -33,7 +32,7 @@ def get_paid(salary)
   "all about the benjamins"
 end
 def take_bath
-  hygiene
+  @hygiene += 4
   "♪ Rub-a-dub just relaxing in the tub ♫"
 
 end
