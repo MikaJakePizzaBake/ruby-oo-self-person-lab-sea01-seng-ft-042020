@@ -47,6 +47,9 @@ def call_friend(friend)
 end
 def start_conversation (person, topic)
 "blah blah partisan blah lobbyist" if topic = "Politics"
+do
+  person.happiness -= 2
+end
 
 
 
