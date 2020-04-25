@@ -46,7 +46,10 @@ def call_friend(friend)
   "Hi #{friend.name}! It's #{name}. How are you?"
 end
 def start_conversation (person, topic)
-
+if topic = "Politics"
+  return
+  "blah blah partisan blah lobbyist"
+end
 
 end
 end
