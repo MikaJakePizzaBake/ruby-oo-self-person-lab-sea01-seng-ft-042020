@@ -51,6 +51,11 @@ if topic == "politics"
   self.happiness -= 2
   "blah blah partisan blah lobbyist"
   #binding.pry
+else
+  topic == "weather"
+  person.happiness += 2
+  self.happiness += 2
+end
 end
 
 
