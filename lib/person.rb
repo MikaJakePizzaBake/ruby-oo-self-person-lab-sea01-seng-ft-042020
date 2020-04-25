@@ -2,7 +2,7 @@
 require 'pry'
 class Person
   attr_reader :name
-  attr_accessor :bank_account, :happiness, :hygiene, :clean
+  attr_accessor :bank_account, :happiness, :hygiene
   def initialize(name)
     @name = name
     @bank_account = 25
@@ -23,7 +23,7 @@ end
 def happy?
   happiness > 7 ? true:false
 end
-def clean
+def clean?
   hygiene > 7 ? true:false
 end
 end
