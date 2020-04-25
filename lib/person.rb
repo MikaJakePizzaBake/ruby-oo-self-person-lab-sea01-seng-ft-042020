@@ -42,6 +42,7 @@ def work_out
 end
 def call_friend(name)
   self.happiness += 3
-  #binding.pry
+  binding.pry
+  
 end
 end
