@@ -50,6 +50,7 @@ def start_conversation (person, topic)
 do
   person.happiness -= 2
 end
+end
 
 
 
