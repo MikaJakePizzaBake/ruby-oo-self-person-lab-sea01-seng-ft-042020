@@ -41,5 +41,6 @@ def work_out
   "♪ another one bites the dust ♫"
 end
 def call_friend(name)
+  self.happiness += 3
 end
 end
