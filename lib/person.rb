@@ -43,6 +43,6 @@ end
 def call_friend(name)
   self.happiness += 3
   binding.pry
-  
+
 end
 end
